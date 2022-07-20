@@ -323,4 +323,8 @@ hr {
         gap: 20px;
         margin-top: 15px;
     }
+
+    .more-btn {
+        display: none;
+    }
 }
