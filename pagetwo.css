@@ -50,6 +50,11 @@ h1 {
 }
 
 /* 2nd part */
+.main-contant {
+    display: flex;
+    margin: 80px 0;
+}
+
 .match {
     width: 20%;
     background-color: #000;
@@ -60,9 +65,7 @@ h1 {
     padding: 20px 0;
     border-radius: 7px;
     height: fit-content;
-
 }
-
 
 .match button {
     width: 80%;
@@ -72,34 +75,9 @@ h1 {
     border-radius: 7px;
 }
 
-.text-box {
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.button-trensfer {
-    border-radius: 5px;
-}
-
-.icon-box {
-    display: flex;
-    gap: 20px;
-}
-
-.text-icon {
-    display: flex;
-    align-items: center;
-
-}
-
 .match button:hover {
     background-color: red;
     color: #fff;
-}
-
-.main-contant {
-    display: flex;
-    margin: 80px 0;
 }
 
 .transfer {
@@ -111,6 +89,30 @@ h1 {
 
 }
 
+.transfer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(202, 197, 197, 0.613);
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+.time {}
+
+.flag-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flag-box span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer Part */
 footer {
     position: relative;
     background-color: #000;
