@@ -1,8 +1,14 @@
 /* 1st part */
 body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.main {
     margin-top: 2%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%
 }
 
 h1 {
@@ -53,6 +59,7 @@ h1 {
     place-items: center;
     padding: 20px 0;
     border-radius: 7px;
+    height: fit-content;
 
 }
 
@@ -65,6 +72,25 @@ h1 {
     border-radius: 7px;
 }
 
+.text-box {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.button-trensfer {
+    border-radius: 5px;
+}
+
+.icon-box {
+    display: flex;
+    gap: 20px;
+}
+
+.text-icon {
+    display: flex;
+    align-items: center;
+
+}
 
 .match button:hover {
     background-color: red;
@@ -78,4 +104,40 @@ h1 {
 
 .transfer {
     width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+.transfer-box {}
+
+footer {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    padding-top: 10%;
+}
+
+hr {
+    border: 1px solid rgb(44, 40, 40);
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.footer-blog {
+    display: inline-flex;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.icon-social {
+    display: inline-flex;
+    gap: 40px;
+    font-size: 30px;
+    padding-top: 40px;
 }
